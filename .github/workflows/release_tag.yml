@@ -18,3 +18,8 @@ jobs:
       with: 
         tag_name: ${{ steps.extract_version_name.outputs.version }} 
         release_name: ${{ steps.extract_version_name.outputs.version }}
+    - uses: echapmanFromBunnings/upload-release-assets@1.2
+      with:
+        releaseTag: ${{ steps.extract_version_name.outputs.version }}
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
+        artefactName: kotlin/main.jar
