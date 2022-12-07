@@ -22,4 +22,5 @@ jobs:
       with:
         releaseTag: ${{ steps.extract_version_name.outputs.version }}
         githubToken: ${{ secrets.GITHUB_TOKEN }}
-        artefactName: kotlin/main.jar
+        files: |
+              kotlin/main.jar
