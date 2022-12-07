@@ -9,3 +9,5 @@
 - testing tag_release by naming brach by release/1.0.0
 
 - testing tag_release by naming brach by release/1.0.1 by adding upload release assests
+  - error
+- testing tag_release by naming brach by release/1.0.2 by adding upload release assests
