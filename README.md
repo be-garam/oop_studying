@@ -7,3 +7,5 @@
 - testing tag_release by master -> main branch
 - testing tag_release by naming brach by release/1.0
 - testing tag_release by naming brach by release/1.0.0
+
+- testing tag_release adding upload release assests
